@@ -1,4 +1,5 @@
-"name": "wwwdeveloper/elgg_who_viewed_myprofile",
+{
+  "name": "wwwdeveloper/elgg_who_viewed_myprofile",
   "description": "shows who has viewed your profile",
   "type": "elgg-plugin",
   "keywords": [
@@ -26,3 +27,4 @@
   "conflict": {
     "elgg/elgg": "<2.3"
   }
+}
