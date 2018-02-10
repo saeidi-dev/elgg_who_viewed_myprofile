@@ -1,25 +1,28 @@
 "name": "wwwdeveloper/elgg_who_viewed_myprofile",
-	"description": "shows who has viewed your profile",
-	"type": "elgg-plugin",
-	"keywords": ["elgg", "plugin", "profile"],
-	"license": "GPL-2.0-only",
+  "description": "shows who has viewed your profile",
+  "type": "elgg-plugin",
+  "keywords": [
+    "elgg",
+    "plugin",
+    "profile"
+  ],
+  "license": "GPL-2.0-only",
   "authors": [
-		{
-			"name": "Mahdi Saeedi",
-			"email": "mahdi.saeedi@hotmail.com"
-		}
-	],
-	"support": {
-		"source": "https://github.com/wwwdeveloper/elgg_who_viewed_myprofile",
-		"issues": "https://github.com/wwwdeveloper/elgg_who_viewed_myprofile/issues"
-	},
-	"require": {
-		"composer/installers": "^1.0.8",
-		"ext-json": "*",
-		"dompdf/dompdf" : "~0.6.0",
-		"bower-asset/fullcalendar": "~2.9.0"
-	},
-	"conflict": {
-		"elgg/elgg": "<2.3"
-	}
-}
+    {
+      "name": "Mahdi Saeedi",
+      "email": "mahdi.saeedi@hotmail.com"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/wwwdeveloper/elgg_who_viewed_myprofile",
+    "issues": "https://github.com/wwwdeveloper/elgg_who_viewed_myprofile/issues"
+  },
+  "require": {
+    "composer/installers": "^1.0.8",
+    "ext-json": "*",
+    "dompdf/dompdf": "~0.6.0",
+    "bower-asset/fullcalendar": "~2.9.0"
+  },
+  "conflict": {
+    "elgg/elgg": "<2.3"
+  }
